@@ -11,13 +11,13 @@ int main(){
     printf("Informe a idade: ");
     scanf("%d", &idade);
     printf("Informe o Valor do Pagamento: ");
-    scanf("%d", &valorDoPgto);
+    scanf("%f", &valorDoPgto);
     printf("Informe a Velocidade da Particula: ");
-    scanf("%d", &velParticula);
+    scanf("%lf", &velParticula);
     printf("Informe o tipo de abilitacao: ");
-    scanf("%d", &tipoHabMotor);
+    scanf("%c", &tipoHabMotor);
 
-    printf("Dados Informados: %d, %f, %lf, %c"idade, valorDoPgto, velParticula, tipoHabMotor);
+    printf("Dados Informados: %d, %f, %lf, %c", idade, valorDoPgto, velParticula, tipoHabMotor);
 
     return 0;
 }
