@@ -28,6 +28,7 @@ int main() {
     printf("x1 = %.2f\n", x1);
     printf("x2 = %.2f\n", x2);
   }
+  
 
   return 0;
 }
