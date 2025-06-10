@@ -12,7 +12,7 @@ int main() {
   // Troca dos valores
   temp = a; // Armazena o valor de 'a' em 'temp'
   a = b;    // Atribui o valor de 'b' a 'a'
-  b = temp; // Atribui o valor de 'temp' (que era o valor original de 'a') a 'b'
+  b = temp; // Atribui o valor de 'temp'
 
   printf("\nValores depois da troca:\n");
   printf("a = %d\n", a);
